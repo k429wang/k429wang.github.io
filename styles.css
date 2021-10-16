@@ -4,7 +4,7 @@ body, html{
 }
 .heading{
     /*Set background selected image and full screen*/
-    background: url("../_images/stars.jpg");
+    background: url("images/stars.jpg");
     height: 100%;
     background-size: 100%;
     display: block;
@@ -65,7 +65,7 @@ body, html{
 }
 .background{
     /*Repeat background parameters for each image to keep consistency*/
-    background: url("../_images/stars.jpg");
+    background: url("images/stars.jpg");
     height: 100%;
     background-size: 100%;
     display: block;
