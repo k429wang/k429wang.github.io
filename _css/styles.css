@@ -1,0 +1,75 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.heading{
+    /*Set background selected image and full screen*/
+    background: url("../_images/stars.jpg");
+    height: 100%;
+    background-size: 100%;
+    display: block;
+
+    /*Set background to stay still when user scrolls up and down the page*/
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    position: relative;
+    padding-bottom: 20%;
+}
+.face{
+    /*Display image of face in center at specific size*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    width: 140px;
+    padding-top: 7%;
+}
+.myname{
+    /*Title specifics regarding size, colour, and alignment*/
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+.intro{
+    /*Introductory paragraph specifics regarding size, colour, and alignment*/
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 30px;
+}
+.links{
+    /*Set link icons group to middle left of screen, and to stay still when user scrolls up or down*/
+    position: fixed;
+    left: 0.5%;
+    top: 37%;
+    height: 70px;
+    width: 70px;
+}
+.linkicons{
+    /*Set size of each specific icon*/
+    height: 70px;
+    width: 70px;
+}
+.wide{
+    /*Set each travel image to have certain margins; will look more consistent across different devices*/
+    display: block;
+    margin: auto;
+    padding-left: 7%;
+    padding-right: 7%;
+    max-width: 80%;
+    height: width/(2+(1/5));
+}
+.background{
+    /*Repeat background parameters for each image to keep consistency*/
+    background: url("../_images/stars.jpg");
+    height: 100%;
+    background-size: 100%;
+    display: block;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    position: relative;
+}
