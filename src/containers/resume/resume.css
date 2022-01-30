@@ -1,0 +1,16 @@
+.resume {
+  background: #707070;
+  text-align: center;
+}
+
+.resume-doc {
+  border-color: black;
+  border-width: 5px;
+  border-radius: 1vw;
+  border-style: solid;
+  height: 30vw;
+}
+
+.resume-doc:hover {
+  height: 50vw;
+}

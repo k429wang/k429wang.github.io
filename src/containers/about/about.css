@@ -1,12 +1,8 @@
 .about {
-  margin-top: 6vw;
-  margin-bottom: 10vw;
+  padding-top: 6vw;
+  padding-bottom: 10vw;
   color: black;
   text-align: center;
-}
-
-.about-title {
-  font-size: 4vw;
 }
 
 .break {
