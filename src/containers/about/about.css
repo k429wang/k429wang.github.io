@@ -1,0 +1,25 @@
+.about {
+  margin-top: 6vw;
+  margin-bottom: 10vw;
+  color: black;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 4vw;
+}
+
+.break {
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.body {
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+  font-size: 1.5vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}

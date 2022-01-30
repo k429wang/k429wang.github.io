@@ -14,10 +14,9 @@ TODO
 }
 
 .face {
+  top: 1vw;
   height: 10vw;
   width: 10vw;
-  margin-right: auto;
-  margin-left: auto;
   margin-top: 8vw;
   margin-bottom: 1vw;
 }

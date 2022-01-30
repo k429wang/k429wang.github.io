@@ -1,0 +1,16 @@
+.navbar {
+  position: sticky;
+  top: 0px;
+  background-color: #1c1c26;
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.item {
+  color: white;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  position: flex;
+  cursor: pointer;
+}

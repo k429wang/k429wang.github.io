@@ -1,31 +1,25 @@
 import React from 'react';
 import './header.css';
 import face from '../../assets/face.png'
-import arrow from '../../assets/arrow.png'
-
-/*
-TODO
--create "learn more" button, maybe use onClick or onMouseEnter/onMouseLeave tags?
--need a javascript approach, save the distance of "about" div from the top of screen, then scroll that much?
--or just use html # by importing the different elements from their files
-https://www.codegrepper.com/code-examples/javascript/onclick+scroll+to+div+react
-https://upmostly.com/tutorials/react-onhover-event-handling-with-examples
-*/
+import {scroller} from 'react-scroll';
 
 export default function Header() {
 
   function click(e){
-    //Scroll down to anchor element
-    console.log(2);
+    scroller.scrollTo('navbar', {
+      duration: 500,
+      smooth: true,
+    });
   }
 
   function hover(e){
-      e.target.style.background = 'skyblue';
+      e.target.style.background = '#5065ba';
+      e.target.style.transition = 'background 0.3s'
   }
 
   function leave(e){
     e.target.style.background = null;
-}
+  }
 
   return <div className='header'>
     <img className='face' src={face} alt='face'></img>
