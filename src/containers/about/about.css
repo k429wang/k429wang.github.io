@@ -1,21 +1,20 @@
 .about {
-  padding-top: 6vw;
-  padding-bottom: 10vw;
   color: black;
   text-align: center;
+  height: 100vh;
 }
 
 .break {
   margin-left: 30vw;
   margin-right: 30vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .body {
-  margin-top: 6vw;
-  margin-bottom: 6vw;
-  font-size: 1.5vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font-size: 3vh;
   margin-left: 20vw;
   margin-right: 20vw;
 }
