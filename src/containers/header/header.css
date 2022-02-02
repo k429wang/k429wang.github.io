@@ -11,6 +11,8 @@ TODO
   text-align: center;
   background-attachment: fixed;
   height: 100vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .face {
@@ -21,11 +23,11 @@ TODO
 }
 
 .intro {
-  font-size: 10vh;
+  font-size: calc(5vh + 2.5vw);
 }
 
 .description {
-  font-size: 3vh;
+  font-size: calc(2vh + 0.5vw);
   padding-top: 1vh;
   padding-bottom: 1vh;
 }
@@ -35,8 +37,8 @@ TODO
   border-radius: 20vh;
   border-style: solid;
   padding: 2vh;
-  margin-right: calc(50vw - 7rem);
-  margin-left: calc(50vw - 7rem);
+  margin-right: calc(40vw - 7rem);
+  margin-left: calc(40vw - 7rem);
   cursor: pointer;
   font-size: 2.5vh;
 }

@@ -1,16 +1,18 @@
 .resume {
-  background: #707070;
+  background: #bfbfbf;
   text-align: center;
+  height: 200vh;
+}
+.resume-title {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
 .resume-doc {
   border-color: black;
-  border-width: 5px;
-  border-radius: 1vw;
+  border-width: 0.3vh;
+  border-radius: 1vh;
   border-style: solid;
-  height: 30vw;
-}
-
-.resume-doc:hover {
-  height: 50vw;
+  height: 140vh;
+  margin-bottom: 5vh;
 }

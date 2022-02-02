@@ -14,7 +14,7 @@
 .body {
   margin-top: 10vh;
   margin-bottom: 10vh;
-  font-size: 3vh;
+  font-size: calc(2vh + 0.5vw);
   margin-left: 20vw;
   margin-right: 20vw;
 }

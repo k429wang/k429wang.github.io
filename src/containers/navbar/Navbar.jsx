@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return <div className='navbar'>
       <a className="item" onClick={click} onMouseEnter={hover} onMouseLeave={leave}>About</a>
-      <a className="item" onClick={click} onMouseEnter={hover} onMouseLeave={leave}>Projects</a>
+      {/* <a className="item" onClick={click} onMouseEnter={hover} onMouseLeave={leave}>Projects</a> */}
       <a className="item" onClick={click} onMouseEnter={hover} onMouseLeave={leave}>Resume</a>
       <a className="item" onClick={click} onMouseEnter={hover} onMouseLeave={leave}>Contact</a>
   </div>;
