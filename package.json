@@ -13,6 +13,7 @@
     "react-pdf": "^5.7.0",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.4",
+    "react-scroll-parallax": "^3.0.2",
     "react-tooltip": "^4.2.21"
   },
   "scripts": {
