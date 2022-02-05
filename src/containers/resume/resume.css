@@ -1,7 +1,6 @@
 .resume {
   background: #bfbfbf;
   text-align: center;
-  height: 200vh;
 }
 .resume-title {
   padding-top: 8vh;
@@ -13,6 +12,11 @@
   border-width: 0.3vh;
   border-radius: 1vh;
   border-style: solid;
-  height: 140vh;
+  max-height: 140vh;
+  max-width: 80vw;
   margin-bottom: 5vh;
+}
+
+.download {
+  padding-bottom: 7vh;
 }

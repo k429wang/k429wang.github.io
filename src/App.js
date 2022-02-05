@@ -17,5 +17,4 @@ export default function App() {
 {/*TODO
  - replace vh/vw variables with rem and use media queries instead
  - implement projects section
- - use parallax scrolling for header section (have content scroll at different speed than background and new content, about section)
 */}

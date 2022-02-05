@@ -10,8 +10,6 @@ export default function About() {
       I am an entry-level web designer and software developer, with a 3.78 GPA and 2+ years of experience in Python, ReactJS and C++.<br></br><br></br>
       I have a passion for programming and problem solving, and I'm always eager to find unique solutions to challenging problems.<br></br><br></br>
       </div>
-      {/* <img className="image" src={bucket_hat} alt='bucket_hat'></img>
-      <img className="image" src={sunset} alt='sunset'></img> */}
     <hr className='break'></hr>
   </div>;
 }

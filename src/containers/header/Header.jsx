@@ -24,7 +24,7 @@ export default function Header() {
 
   return (<div className='header'>
     <ParallaxProvider>
-      <Parallax speed={-20}>
+      <Parallax speed={-15}>
         <div>
           <img className='face' src={face} alt='face'></img>
           <div className='intro'>Hello&#x1F44B;! I am Kai Wang.</div>
