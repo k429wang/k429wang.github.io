@@ -6,6 +6,7 @@ import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Header() {
 
+  // On button click scroll to the about section with navbar on top of screen
   function click(e){
     scroller.scrollTo('navbar', {
       duration: 500,
@@ -13,17 +14,20 @@ export default function Header() {
     });
   }
 
+  // On button mouse hover change background colour
   function hover(e){
       e.target.style.background = '#5065ba';
       e.target.style.transition = 'background 0.3s'
   }
 
+  // Change button background colour back to normal when mouse leaves
   function leave(e){
     e.target.style.background = null;
   }
 
   return (<div className='header'>
     <ParallaxProvider>
+      {/* Parallax scrolling -> header scrolls slower than rest of page */}
       <Parallax speed={-15}>
         <div>
           <img className='face' src={face} alt='face'></img>

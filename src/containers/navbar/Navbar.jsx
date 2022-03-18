@@ -4,6 +4,7 @@ import {scroller} from 'react-scroll';
 
 export default function Navbar() {
 
+  // On button click scroll to the designated element
   function click(e){
     var content = e.target.textContent;
     var cap = content.charAt(0).toLowerCase() + content.slice(1)
@@ -13,11 +14,13 @@ export default function Navbar() {
     })
   }
 
+  // On button mouse hover change text colour
   function hover(e){
       e.target.style.color = '#00fff2';
       e.target.style.transition = 'color 0.3s'
   }
 
+  // Change text colour back to normal when mouse leave
   function leave(e){
     e.target.style.color = null;
   }
