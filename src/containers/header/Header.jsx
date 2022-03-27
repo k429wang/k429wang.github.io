@@ -16,8 +16,8 @@ export default function Header() {
 
   // On button mouse hover change background colour
   function hover(e){
-      e.target.style.background = '#5065ba';
-      e.target.style.transition = 'background 0.3s'
+      e.target.style.background = '#29a6ff';
+      e.target.style.transition = 'background 0.5s'
   }
 
   // Change button background colour back to normal when mouse leaves

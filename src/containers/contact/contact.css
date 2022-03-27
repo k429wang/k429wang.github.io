@@ -20,6 +20,6 @@
 }
 
 .icon {
-  height: 15vw;
-  width: 15vw;
+  height: calc(10vh + 10vw);
+  width: calc(10vh + 10vw);
 }
