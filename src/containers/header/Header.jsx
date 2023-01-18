@@ -33,7 +33,7 @@ export default function Header() {
           <img className='face' src={face} alt='face'></img>
           <div className='intro'>Hello&#x1F44B;! I am Kai Wang.</div>
           <p className='description'>
-            I am a first-year Computer Engineering student at the University of Waterloo&#x1F3EB;.<br></br>
+            I am a Computer Engineering student at the University of Waterloo&#x1F3EB;.<br></br>
             I have a passion for software development and computer programming&#x1F4BB;.
           </p>
           <div className='button' onClick={click} onMouseEnter={hover} onMouseLeave={leave}>Learn more</div>
