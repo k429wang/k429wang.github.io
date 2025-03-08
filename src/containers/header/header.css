@@ -1,56 +1,108 @@
-/*
-TODO
-- add media query for mobile devices so that background doesn't repeat
-
-*/
-
 .header {
-  background-image: url(../../assets/stars.jpg);
-  background-size: 100%;
   color: white;
   text-align: center;
   background-attachment: fixed;
   height: 100vh;
   padding-left: 10vw;
   padding-right: 10vw;
+  background-size: cover; 
 }
 
-.face {
-  height: 20vh;
-  width: 20vh;
-  margin-top: 15vh;
-  margin-bottom: 1vh;
+.header .content {
+  position: relative;
+  z-index: 10; 
+  text-align: center;
+  color: white;
+  padding-top: 20vh;
+  animation: fadeInUp 1s ease-in-out forwards;
 }
 
-.intro {
-  font-size: calc(5vh + 2.5vw);
+.header h1 {
+  font-size: 5rem; 
+  margin-bottom: 5rem;
 }
 
-.description {
-  font-size: calc(2vh + 0.5vw);
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+.header .description {
+  font-size: 3rem; 
+  margin-bottom: 4rem;
 }
 
 .button {
-  border-color: white;
-  border-radius: 20vh;
-  border-style: solid;
-  padding: 2vh;
-  margin-right: calc(40vw - 7rem);
-  margin-left: calc(40vw - 7rem);
+  align-items: center;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: white;
   cursor: pointer;
-  font-size: 2.5vh;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 54px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-/*
-animation: spin infinite 10s linear;
+.button:after {
+  background-color: white;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 54px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
 
-@keyframes spin {
+.button:hover:after {
+  transform: translate(0, 0);
+}
+
+.button:active {
+  background-color: white;
+  outline: 0;
+}
+
+.button:hover {
+  outline: 0;
+}
+
+@keyframes fadeInUp {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(30px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
-} */
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+  .header .description{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  .header .description{
+    font-size: 1.5rem;
+  }
+}

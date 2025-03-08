@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 
-import {Header, Navbar, About, Projects, Resume, Contact} from './containers'
+import {Header, Navbar, About, Resume, Contact} from './containers'
+import {AnimatedBackground} from './animations/AnimatedBackground'
 
 export default function App() {
+  var darkMode = true;
+
   return <div className='webpage'>
     <Header />
     <Navbar />
     <About />
-    {/* <Projects /> */}
     <Resume />
     <Contact />
   </div>;
