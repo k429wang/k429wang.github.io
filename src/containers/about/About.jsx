@@ -1,12 +1,9 @@
 import React from 'react';
 import './about.css';
-import { Parallax, ParallaxProvider } from 'react-scroll-parallax'; 
 
 export default function About() {
   return <div className='about'>
-    {/* <ParallaxProvider>
-    <Parallax speed={-20}> */}
-    <div className='title'>ABOUT ME</div>
+    <div className='title'>About Me</div>
     <hr className='break'></hr>
     <div className='body'>
       Welcome to my personal website!<br></br><br></br>
@@ -14,7 +11,5 @@ export default function About() {
       I have a passion for programming and problem solving, and I'm always eager to find unique solutions to challenging problems.<br></br><br></br>
       </div>
     <hr className='break'></hr>
-    {/* </Parallax>
-    </ParallaxProvider> */}
   </div>;
 }

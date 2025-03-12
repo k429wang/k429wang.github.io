@@ -7,7 +7,7 @@ import ReactTooltip from 'react-tooltip';
 
 export default function Contact() {
   return <div className='contact'>
-      <div className='title dark-title'>Contact</div>
+      <div className='title'>Contact</div>
       {/* Social media links + icons */}
       <div className='links'>
         <a className="link" href="https://www.linkedin.com/in/k429wang/" target="_blank">             

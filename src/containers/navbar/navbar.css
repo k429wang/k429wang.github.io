@@ -1,15 +1,22 @@
 .navbar {
   position: sticky;
-  top: 0px;
+  top: 10px;
   text-align: center;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
 }
 
 .item {
   color: white;
-  margin-left: 6vw;
-  margin-right: 6vw;
-  position: flex;
   cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+.item:hover {
+  scale: 1.1;
+  color: black;
+  background-color: white;
 }
