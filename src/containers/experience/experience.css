@@ -1,0 +1,29 @@
+.experience-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .date {
+    color: white;
+  }
+
+  .title-and-company {
+    display: flex;
+  }
+
+  .company-name {
+    /* font-weight: bold; */
+    font-style: italic;
+  }
+  
+  .skills .item {
+    background-color: #555;
+    padding: 6px 12px;
+    border-radius: 10px; 
+    margin: 5px;
+    margin-top: 10px;
+    color: white;
+    display: inline-block;
+  }
+  
