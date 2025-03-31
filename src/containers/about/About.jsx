@@ -1,15 +1,23 @@
 import React from 'react';
 import './about.css';
+import face from '../../assets/face.png'
 
 export default function About() {
   return <div className='about'>
-    <div className='title'>About Me</div>
-    <hr className='break'></hr>
-    <div className='body'>
-      Welcome to my personal website!<br></br><br></br>
-      I am an entry-level web designer and software developer, with a 3.7 GPA and 3+ years of experience in Python, React, and C++.<br></br><br></br>
-      I have a passion for programming and problem solving, and I'm always eager to find unique solutions to challenging problems.<br></br><br></br>
+    <div className="about-container">
+      <div className="about-left">
+        <img className="profile-image" src={face} alt="Profile" />
       </div>
-    <hr className='break'></hr>
+      <div className="about-right">
+        <h1>About Me</h1>
+        <ul className="about-points">
+          <li> 🏫 Computer Engineering @ University of Waterloo, specializing in Software Engineering</li>
+          <li> 💻 Full-stack developer passionate about React, Python, Ruby on Rails, and .NET/C#</li>
+          <li> 🎮 When not coding, you'll find me gaming, testing new recipes, and exploring the world</li>
+          <li> 🎯 <strong>Seeking Fall 2025 Software Engineering internships</strong></li>
+          {/* <li> 🎯 Seeking full-time software engineering roles starting Spring 2026</li> */}
+        </ul>
+      </div>
+    </div>
   </div>;
 }
