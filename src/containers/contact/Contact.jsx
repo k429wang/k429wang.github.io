@@ -6,7 +6,7 @@ import github from '../../assets/github.png'
 import ReactTooltip from 'react-tooltip';
 
 export default function Contact() {
-  return <div className='contact'>
+  return <div className='contact' name="contact">
       <div className='title'>Contact</div>
       {/* Social media links + icons */}
       <div className='links'>

@@ -1,22 +1,86 @@
 .navbar {
   position: sticky;
-  top: 10px;
-  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  justify-content: space-around;
-  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  z-index: 1000;
+  transition: all 0.3s ease;
 }
 
-.item {
-  color: white;
+.navbar .item {
+  color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
-  transition: 0.3s;
-  border-radius: 10px;
+  transition: all 0.3s ease;
+  border-radius: 12px;
   padding: 6px 12px;
+  font-size: 1.4rem;
+  margin: 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.item:hover {
-  scale: 1.1;
-  color: black;
-  background-color: white;
+.navbar .icon {
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 1.4rem;
+  margin: 0 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .item:hover,
+.navbar .icon:hover {
+  scale: 1.1; 
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem;
+  }
+  
+  .navbar-left, .navbar-right {
+    width: 100%;
+    justify-content: center;
+    gap: 6px;
+  }
+  
+  .navbar {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .navbar .item {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+  
+  .navbar .icon {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+  }
 }

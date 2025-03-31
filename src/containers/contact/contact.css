@@ -18,7 +18,7 @@
   margin-right: 5vw;
 }
 
-.icon {
+.link .icon {
   height: calc(10vh + 10vw);
   width: calc(10vh + 10vw);
 }
