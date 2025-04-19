@@ -12,10 +12,10 @@ export default function About() {
         <h1>About Me</h1>
         <ul className="about-points">
           <li> 🏫 Computer Engineering @ University of Waterloo, specializing in Software Engineering</li>
-          <li> 💻 Full-stack developer passionate about React, Python, Ruby on Rails, and .NET/C#</li>
+          <li> 💻 Full-stack developer passionate about React, Python, Ruby on Rails, and C#/.NET</li>
           <li> 🎮 When not coding, you'll find me gaming, testing new recipes, and exploring the world</li>
           <li> 🎯 <strong>Seeking Fall 2025 Software Engineering internships</strong></li>
-          {/* <li> 🎯 Seeking full-time software engineering roles starting Spring 2026</li> */}
+          {/* <li> 🎯 <strong>Seeking full-time software engineering roles starting Spring 2026</strong></li> */}
         </ul>
       </div>
     </div>

@@ -18,7 +18,7 @@ export default function Resume() {
         </p>
       </object>
       <div className='download'>
-        <a href={resumepdf} target='_blank' download='Kai_Wang_Resume'>
+        <a href={resumepdf} target='_blank' download='Kai_Wang_Resume.pdf'>
           Download
         </a>
       </div>
