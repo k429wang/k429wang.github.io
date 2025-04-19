@@ -11,11 +11,6 @@
   .title-and-company {
     display: flex;
   }
-
-  .company-name {
-    /* font-weight: bold; */
-    font-style: italic;
-  }
   
   .skills .item {
     background-color: #555;

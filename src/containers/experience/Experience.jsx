@@ -55,8 +55,7 @@ export default function Experience() {
             iconStyle={{ background: "white", border: '2px solid white' }}
           >
             <div className="title-and-company">
-              <h3 className="job-title">{experience.title}</h3>
-              <h3 className="company-name">@ {experience.company}</h3>
+              <h3 className="job-title">{experience.title} @ <i>{experience.company}</i></h3>
             </div>
             <div className="skills">
               {experience.skills.map((item) => (
