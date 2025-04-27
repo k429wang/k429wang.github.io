@@ -1,18 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2aa72fe.css",
-    "main.js": "/static/js/main.ee24bc84.js",
+    "main.css": "/static/css/main.e636cdc9.css",
+    "main.js": "/static/js/main.990fe904.js",
+    "static/media/freshcheck.png": "/static/media/freshcheck.4ea032a7fa66b606868e.png",
+    "static/media/discordbot.png": "/static/media/discordbot.2bc74753021d52b08d4e.png",
     "static/media/face.png": "/static/media/face.6a94cd86b97e5eba5f3a.png",
     "static/media/linkedin.png": "/static/media/linkedin.a027a7491dac19300105.png",
+    "static/media/floppyfish.png": "/static/media/floppyfish.0c357a3131231d374d05.png",
+    "static/media/travelens.png": "/static/media/travelens.7cf8cc38b9bcc9350ee6.png",
+    "static/media/spywatch.png": "/static/media/spywatch.b863106e86cc9fa81a95.png",
     "static/media/github.png": "/static/media/github.222279e0f683f6650880.png",
     "static/media/email.png": "/static/media/email.1e188f998ab65826c81d.png",
+    "static/media/dungeonofmoss.png": "/static/media/dungeonofmoss.f04164ec11dcb84044a7.png",
     "static/media/resume.pdf": "/static/media/resume.be36c503756f4a23114d.pdf",
+    "static/media/personalwebsite.png": "/static/media/personalwebsite.eabeeb7d13115f46e69e.png",
+    "static/media/studycam.png": "/static/media/studycam.0dd44c665597c7a85717.png",
+    "static/media/pong.png": "/static/media/pong.8d51ca04e1c0e6f80edd.png",
     "index.html": "/index.html",
-    "main.c2aa72fe.css.map": "/static/css/main.c2aa72fe.css.map",
-    "main.ee24bc84.js.map": "/static/js/main.ee24bc84.js.map"
+    "main.e636cdc9.css.map": "/static/css/main.e636cdc9.css.map",
+    "main.990fe904.js.map": "/static/js/main.990fe904.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2aa72fe.css",
-    "static/js/main.ee24bc84.js"
+    "static/css/main.e636cdc9.css",
+    "static/js/main.990fe904.js"
   ]
 }
