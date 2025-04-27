@@ -21,3 +21,19 @@
   font-weight: 500;
   transition: 0.5s;
 }
+
+@media (max-width: 768px) {
+  .resume-doc {
+    max-width: 95vw;
+    height: 600px;
+  }
+
+  .resume .download {
+    margin: 1.5rem 0;
+  }
+
+  .resume .download a {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}

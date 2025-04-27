@@ -1,24 +1,41 @@
 .experience-header {
-    text-align: center;
-    margin-bottom: 20px;
-    color: white;
-  }
-  
-  .date {
-    color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.date {
+  color: white;
+}
+
+.title-and-company {
+  display: flex;
+}
+
+.skills .item {
+  background-color: #555;
+  padding: 6px 12px;
+  border-radius: 10px; 
+  margin: 5px;
+  margin-top: 10px;
+  color: white;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .experience-header {
+    padding: 0 1rem;
+    margin-bottom: 15px;
   }
 
   .title-and-company {
-    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
   }
-  
+
   .skills .item {
-    background-color: #555;
-    padding: 6px 12px;
-    border-radius: 10px; 
-    margin: 5px;
-    margin-top: 10px;
-    color: white;
-    display: inline-block;
+    padding: 4px 8px;
+    margin: 3px;
+    font-size: 0.9rem;
   }
-  
+}

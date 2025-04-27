@@ -16,7 +16,7 @@ export default function App() {
 }
 
 {/*TODO
- - add media queries to every section
+ - improve mobile view and overall css responsiveness
  - projects
   - add any remaining projects (not found on github)
   - run all github projects, fix them, make them better, then add logos/pictures for them
