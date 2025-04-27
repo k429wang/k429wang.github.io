@@ -31,7 +31,7 @@ export function AnimatedBackground() {
         ctx.fillStyle = "#eee";
         ctx.fill();
         star.y += star.speed;
-        if (star.y > canvas.height) star.y = -star.radius; // Reset if off-screen
+        if (star.y > canvas.height) star.y = -star.radius;
       });
 
       requestAnimationFrame(animate);
@@ -39,7 +39,6 @@ export function AnimatedBackground() {
 
     animate();
 
-    // Resize handler
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;

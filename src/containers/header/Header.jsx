@@ -12,7 +12,6 @@ const phrases = [
 ];
 
 export default function Header() {
-  // On button click scroll to the about section with navbar on top of screen
   function click(e){
     scroller.scrollTo('about', {
       duration: 500,

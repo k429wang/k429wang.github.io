@@ -40,7 +40,7 @@ export default function Navbar() {
         </div>
         <div className="item">About</div>
         <div className="item">Experience</div>
-        {/* <div className="item">Projects</div> */}
+        <div className="item">Projects</div>
         <div className="item">Resume</div>
         <div className="item">Contact</div>
       </div>
