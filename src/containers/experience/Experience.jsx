@@ -8,37 +8,37 @@ const experiences = [
       date: 'Jan 2025 - Present',
       title: 'Software Developer Intern',
       company: 'Workleap',
-      skills: ["Ruby on Rails", "Ember.js", "PostgreSQL"],
+      skills: ["Ruby on Rails", "Ember.js", "PostgreSQL", "RSpec", "Mixpanel", "Sentry", "Honeycomb", "OpenTelemetry"],
     },
     {
       date: 'Jan 2024 - Apr 2024',
       title: 'Software Developer Associate',
       company: 'Senstar',
-      skills: [".NET", "C#", "SQL", "DevExpress", "WinForms", "NUnit"],
+      skills: [ "C#", ".NET", "SQL", "DevExpress", "WinForms", "NUnit"],
     },
     {
       date: 'May 2023 - Aug 2023',
       title: 'Software Engineer Intern',
       company: 'Titanium Agency',
-      skills: [".NET", "C#", "Python", "SQL", "GCP"],
+      skills: ["Python",  "C#", ".NET", "Razor", "SQL", "GCP", "JavaScript", "jQuery", "HTML/CSS"],
     },
     {
       date: 'Sep 2022 - Dec 2022',
       title: 'Software Developer Intern',
       company: 'Miovision',
-      skills: ["SQL", "AWS",  "C#", "Ruby on Rails", "REST APIs"],
+      skills: ["SQL", "AWS S3",  "C#", "Ruby on Rails", "REST APIs"],
     },
     {
       date: 'May 2022 - Aug 2022',
       title: 'Software Engineer (Crypto)',
       company: 'Opal',
-      skills: ["MongoDB", "Postman", "REST APIs"],
+      skills: ["MongoDB", "Postman", "REST APIs", "Cryptocurrency", "React"],
     },
     {
       date: 'Jan 2022 - Apr 2022',
       title: 'Web Developer',
       company: 'U+ Education',
-      skills: ["React", "Python", "SQL", "REST APIs"],
+      skills: ["React", "Python", "SQL", "REST APIs", "HTML/CSS"],
     },
   ];
 
