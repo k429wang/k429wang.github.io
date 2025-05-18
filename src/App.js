@@ -15,7 +15,7 @@ export default function App() {
   </div>;
 }
 
-{/*TODO
+/*TODO
  - improve mobile view and overall css responsiveness
  - projects
   - integrate with Github API?
@@ -25,4 +25,4 @@ export default function App() {
  - about me -> update picture + edit border
  - experience -> integrate with LinkedIn API?
  - navbar -> fix the weird cursor bug?
-*/}
+*/
