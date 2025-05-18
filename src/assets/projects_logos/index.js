@@ -9,6 +9,7 @@ import pong from './pong.png';
 import floppyfish from './floppyfish.png';
 import minesweeper from './minesweeper.png';
 import discordbot from './discordbot.png';
+import java from './java.png';
 
 export {
   watolink,
@@ -22,4 +23,5 @@ export {
   floppyfish,
   minesweeper,
   discordbot,
+  java,
 };

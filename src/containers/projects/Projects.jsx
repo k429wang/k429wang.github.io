@@ -12,6 +12,7 @@ import {
   floppyfish,
   minesweeper,
   discordbot,
+  java,
 } from '../../assets/projects_logos';
 
 export default function Projects() {
@@ -27,7 +28,11 @@ export default function Projects() {
   };
 
   const handleProjectClick = (url) => {
-    window.open(url, '_blank');
+    if (url === 'scrollToTop') {
+      scrollToTop();
+    } else if (url) {
+      window.open(url, '_blank');
+    }
   };
 
   const projects = [
@@ -74,25 +79,24 @@ export default function Projects() {
     {
       id: 6,
       name: "Personal Website",
-      url: "https://github.com/k429wang/k429wang.github.io",
+      url: 'scrollToTop',
       logo: personalwebsite,
       description: "My personal website portfolio, hosted on Github pages",
       skills: ["React", "JavaScript", "HTML/CSS", "AI", "Frontend"]
     },
     {
       id: 7,
-      name: "Minesweeper",
-      url: "https://github.com/k429wang/Cplusplus-Projects",
+      name: "GeeseSpotter",
       logo: minesweeper,
-      description: "A collection of C++ projects from a beginners coding course",
+      description: "Recreation of Minesweeper in C++ (private repo for school project)",
       skills: ["C++", "Frontend"]
     },
     {
       id: 8,
-      name: "Flappy Bird",
-      url: "https://github.com/k429wang/Flappy-Bird",
+      name: "Floppy Fish",
+      url: "https://github.com/k429wang/Floppy-Fish",
       logo: floppyfish,
-      description: "Recreation of the widely popular mobile game, Flappy Bird",
+      description: "Recreation of the popular mobile game Flappy Bird",
       skills: ["Python", "Pygame", "GameDev", "Frontend"]
     },
     {
@@ -108,7 +112,7 @@ export default function Projects() {
       name: "Dungeon of Moss",
       url: "https://github.com/k429wang/Dungeon-of-Moss",
       logo: dungeonofmoss,
-      description: "A 2D roguelike video game created in Visual Basic",
+      description: "A 2D bullet-hell video game created in Visual Basic",
       skills: ["Visual Basic", "GameDev", "Frontend"]
     },
     {
@@ -118,6 +122,14 @@ export default function Projects() {
       logo: discordbot,
       description: "An interactive discord bot featuring trivia questions and quizzes",
       skills: ["Python", "REST APIs", "Backend"]
+    },
+    {
+      id: 12,
+      name: "Java Mini-Projects",
+      url: "https://github.com/k429wang/Java-Projects",
+      logo: java,
+      description: "A collection of random Java mini-projects (and CCC submissions)",
+      skills: ["Java", "Backend", ]
     },
   ];
 
@@ -161,6 +173,10 @@ export default function Projects() {
 
   const handleNextPage = () => {
     setCurrentPage(current => current < pageCount - 1 ? current + 1 : current);
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
