@@ -5,7 +5,13 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const experiences = [
     {
-      date: 'Jan 2025 - Present',
+      date: 'Sep 2025 - Present',
+      title: 'Software Developer Co-op',
+      company: 'Vidyard',
+      skills: ["Ruby on Rails", "Vue.js", "Node.js", "MySQL", "RSpec", "GraphQL", "Stripe"],
+    },
+    {
+      date: 'Jan 2025 - Apr 2025',
       title: 'Software Developer Intern',
       company: 'Workleap',
       skills: ["Ruby on Rails", "Ember.js", "PostgreSQL", "RSpec", "Mixpanel", "Sentry", "Honeycomb", "OpenTelemetry"],
@@ -32,7 +38,7 @@ const experiences = [
       date: 'May 2022 - Aug 2022',
       title: 'Software Engineer (Crypto)',
       company: 'Opal',
-      skills: ["MongoDB", "Postman", "REST APIs", "Cryptocurrency", "React"],
+      skills: ["React", "MongoDB", "Postman", "REST APIs"],
     },
     {
       date: 'Jan 2022 - Apr 2022',

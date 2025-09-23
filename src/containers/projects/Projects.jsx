@@ -13,6 +13,8 @@ import {
   minesweeper,
   discordbot,
   java,
+  sonushalo,
+  simplesync
 } from '../../assets/projects_logos';
 
 export default function Projects() {
@@ -62,19 +64,18 @@ export default function Projects() {
     },
     {
       id: 4,
-      name: "StudyCam",
-      url: "https://devpost.com/software/studycam",
-      logo: studycam,
-      description: "Track your study efficiency through your webcam using computer vision",
-      skills: ["Python", "AI", "PyQt", "OpenCV", "Frontend", "Backend"]
+      name: "SimpleSync",
+      url: "https://github.com/k429wang/SimpleSync",
+      logo: simplesync,
+      description: "An improved Android calendar app for smart group scheduling and event coordination",
+      skills: ["Kotlin", "Android", "Jetpack Compose", "Supabase", "Frontend", "Backend"]
     },
     {
       id: 5,
-      name: "Fresh Check",
-      url: "https://github.com/k429wang/Fresh-Check",
-      logo: freshcheck,
-      description: "A grocery app that scans receipts to keep track of purchased food and corresponding expiry dates to decrease food waste",
-      skills: ["Javascript", "React Native", "Python", "AI", "REST APIs", "Frontend"]
+      name: "Sonus Halo",
+      logo: sonushalo,
+      description: "A wearable wristband that translates audio into haptic feedback, improving accessibility for hearing-impaired users",
+      skills: ["C++", "Tensorflow", "Keras", "AI"]
     },
     {
       id: 6,
@@ -129,7 +130,23 @@ export default function Projects() {
       url: "https://github.com/k429wang/Java-Projects",
       logo: java,
       description: "A collection of random Java mini-projects (and CCC submissions)",
-      skills: ["Java", "Backend", ]
+      skills: ["Java", "Backend"]
+    },
+    {    
+      id: 13,
+      name: "StudyCam",
+      url: "https://devpost.com/software/studycam",
+      logo: studycam,
+      description: "Track your study efficiency through your webcam using computer vision",
+      skills: ["Python", "AI", "PyQt", "OpenCV", "Frontend", "Backend"]
+    },
+    {
+      id: 14,
+      name: "Fresh Check",
+      url: "https://github.com/k429wang/Fresh-Check",
+      logo: freshcheck,
+      description: "A grocery app that scans receipts to keep track of purchased food and corresponding expiry dates to decrease food waste",
+      skills: ["Javascript", "React Native", "Python", "AI", "REST APIs", "Frontend"]
     },
   ];
 

@@ -10,6 +10,8 @@ import floppyfish from './floppyfish.png';
 import minesweeper from './minesweeper.png';
 import discordbot from './discordbot.png';
 import java from './java.png';
+import sonushalo from './sonushalo.png';
+import simplesync from './simplesync.png';
 
 export {
   watolink,
@@ -24,4 +26,6 @@ export {
   minesweeper,
   discordbot,
   java,
+  sonushalo,
+  simplesync,
 };

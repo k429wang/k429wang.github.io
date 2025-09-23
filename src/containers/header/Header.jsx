@@ -5,10 +5,10 @@ import { AnimatedBackground } from '../../animations/AnimatedBackground';
 import Typewriter from 'typewriter-effect';
 
 const phrases = [
-  "Software Developer",
-  "Computer Engineer",
+  "Software Developer",  
+  "Full Stack Developer",  
   "Web Developer",
-  "Full Stack Developer",
+  "Computer Engineer",
 ];
 
 export default function Header() {
@@ -32,7 +32,7 @@ export default function Header() {
             loop: true,
             delay: 50, 
             deleteSpeed: 30, 
-            pauseFor: 2000, 
+            pauseFor: 1000, 
           }}
         />
       </div>
