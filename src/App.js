@@ -18,11 +18,13 @@ export default function App() {
 /*TODO
  - improve mobile view and overall css responsiveness
  - projects
+  - add new projects (tower defense, genius ventures project, javascript messaging app, etc.)
   - integrate with Github API?
-  - add capstone + android app
-  - add any remaining projects (not found on github)
+  - remove "skills" title
+  - redo project cards -> remove icons, make all consistent size (consider switching to 1 row, 4 columns?)
   - run all github projects, fix them, make them better, then add logos/pictures for them
- - about me -> update picture + edit border
  - experience -> integrate with LinkedIn API?
  - navbar -> fix the weird cursor bug?
+ - resume -> remove resume section, and add extra link to contact section
+ - contact -> add extra link to resume section
 */
